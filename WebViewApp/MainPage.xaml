@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:WebViewApp"
              x:Class="WebViewApp.MainPage">
 
-	<Label Text="Ai gatda pawa." 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <WebView x:Name="webView" 
+             WidthRequest="300" HeightRequest="600"
+             Navigating="webOnNavigating"
+             Navigated="webOnEndNavigating" />
 
 </ContentPage>
