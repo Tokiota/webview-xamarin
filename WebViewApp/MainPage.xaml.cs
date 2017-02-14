@@ -11,6 +11,7 @@ namespace WebViewApp
 	{
 		public MainPage()
 		{
+            //tests
 			InitializeComponent();
             webView.Source = "http://www.facebook.com/";
 		}
